@@ -1,0 +1,200 @@
+################# p1 #################################
+
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0104188928381
+desired_marker.pose.position.y = 0.0913594588637
+desired_marker.pose.position.z = 0.671579241753
+desired_marker.pose.orientation.x = -0.000112583625832
+desired_marker.pose.orientation.y = 0.998989002931
+desired_marker.pose.orientation.z = -0.00159421706268
+desired_marker.pose.orientation.w = -0.0449268051391
+corner_point.x = 1105.99987793
+corner_point.y = 605.342590332
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1106.0
+corner_point.y = 855.082336426
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 858.999938965
+corner_point.y = 850.160827637
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 859.000061035
+corner_point.y = 604.015441895
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.375673022371
+      -J shoulder_lift_joint -1.73474527602
+      -J elbow_joint 1.53569825321
+      -J wrist_1_joint -1.37182132012
+      -J wrist_2_joint -1.57433486554
+      -J wrist_3_joint 1.20093512535
+
+
+################# p2 ################################# 
+### only vertical translation ###
+
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0110999085009
+desired_marker.pose.position.y = 0.0895686373115
+desired_marker.pose.position.z = 0.391167014837
+desired_marker.pose.orientation.x = 0.00138597377256
+desired_marker.pose.orientation.y = 0.99905549001
+desired_marker.pose.orientation.z = -0.00518299264539
+desired_marker.pose.orientation.w = -0.0431201060417
+corner_point.x = 1213.70996094
+corner_point.y = 645.274536133
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1215.2019043
+corner_point.y = 1077.45861816
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 790.234130859
+corner_point.y = 1064.86364746
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 789.45703125
+corner_point.y = 643.791931152
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.375554480137
+      -J shoulder_lift_joint -1.71121107169
+      -J elbow_joint 2.01080210161
+      -J wrist_1_joint -1.86974933939
+      -J wrist_2_joint -1.57508847438
+      -J wrist_3_joint 1.20093512535
+
+
+################# p3 ################################# 
+### only z rotation ###
+
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0520019493997
+desired_marker.pose.position.y = 0.0589661933482
+desired_marker.pose.position.z = 0.671932995319
+desired_marker.pose.orientation.x = 0.754716881828
+desired_marker.pose.orientation.y = 0.655102246442
+desired_marker.pose.orientation.z = 0.0274566514902
+desired_marker.pose.orientation.w = -0.0221270711834
+corner_point.x = 927.069519043
+corner_point.y = 556.884887695
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1173.85205078
+corner_point.y = 521.78112793
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1205.43371582
+corner_point.y = 765.184692383
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 962.299926758
+corner_point.y = 799.775146484
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.375673022371
+      -J shoulder_lift_joint -1.73474527602
+      -J elbow_joint 1.53569825321
+      -J wrist_1_joint -1.37182132012
+      -J wrist_2_joint -1.57433486554
+      -J wrist_3_joint 2.91467357254
+
+
+################# p4 #################################
+
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0174708664417
+desired_marker.pose.position.y = -0.107234738767
+desired_marker.pose.position.z = 0.56105864048
+desired_marker.pose.orientation.x = -0.0108293411269
+desired_marker.pose.orientation.y = 0.970833346434
+desired_marker.pose.orientation.z = 0.234264304505
+desired_marker.pose.orientation.w = -0.0498555358675
+corner_point.x = 1162.35217285
+corner_point.y = 125.329582214
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1143.37780762
+corner_point.y = 418.311157227
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 862.25982666
+corner_point.y = 408.330841064
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 850.892150879
+corner_point.y = 119.938774109
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.106929767152
+      -J shoulder_lift_joint -1.73495165748
+      -J elbow_joint 1.74961745501
+      -J wrist_1_joint -1.62413120819
+      -J wrist_2_joint -2.06910233941
+      -J wrist_3_joint 1.45872754655
+
+
+################# p5 #################################
+
+desired_marker.id = 582
+desired_marker.pose.position.x = -0.0403907299042
+desired_marker.pose.position.y = -0.023838551715
+desired_marker.pose.position.z = 0.671923995018
+desired_marker.pose.orientation.x = 0.399445402521
+desired_marker.pose.orientation.y = 0.915850269955
+desired_marker.pose.orientation.z = 0.0146888810405
+desired_marker.pose.orientation.w = -0.038024862948
+corner_point.x = 869.245788574
+corner_point.y = 314.562316895
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1052.03833008
+corner_point.y = 484.184967041
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 883.943115234
+corner_point.y = 664.606384277
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 703.946655273
+corner_point.y = 497.362182617
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.600095741602
+      -J shoulder_lift_joint -1.73477155367
+      -J elbow_joint 1.53560447693
+      -J wrist_1_joint -1.37176353136
+      -J wrist_2_joint -1.57433921496
+      -J wrist_3_joint 1.8

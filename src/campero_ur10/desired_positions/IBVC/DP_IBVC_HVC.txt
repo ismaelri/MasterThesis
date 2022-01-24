@@ -1,0 +1,947 @@
+################# p1 #################################
+
+desired_marker.id = 10
+desired_marker.pose.position.x = 0.0464661344886
+desired_marker.pose.position.y = 0.05880086869
+desired_marker.pose.position.z = 0.685755729675
+desired_marker.pose.orientation.x = 0.00337663567104
+desired_marker.pose.orientation.y = 0.999809824824
+desired_marker.pose.orientation.z = -0.0147463814366
+desired_marker.pose.orientation.w = 0.0123067766144
+corner_point.x = 1113.70202637
+corner_point.y = 597.704101562
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1115.18347168
+corner_point.y = 719.06060791
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 993.556640625
+corner_point.y = 720.341003418
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 993.067626953
+corner_point.y = 598.727416992
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 17
+desired_marker.pose.position.x = -0.0244027804583
+desired_marker.pose.position.y = 0.126588702202
+desired_marker.pose.position.z = 0.686363279819
+desired_marker.pose.orientation.x = 0.00418152914319
+desired_marker.pose.orientation.y = 0.998317486043
+desired_marker.pose.orientation.z = -0.0565197421893
+desired_marker.pose.orientation.w = 0.0122568599844
+corner_point.x = 970.676757812
+corner_point.y = 733.804748535
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 971.897583008
+corner_point.y = 856.721069336
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 850.00012207
+corner_point.y = 858.210571289
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 850.0
+corner_point.y = 735.285705566
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 26
+desired_marker.pose.position.x = -0.0242561418563
+desired_marker.pose.position.y = -0.00801906455308
+desired_marker.pose.position.z = 0.684716701508
+desired_marker.pose.orientation.x = 0.00199905449751
+desired_marker.pose.orientation.y = 0.998276730136
+desired_marker.pose.orientation.z = 0.0496386626552
+desired_marker.pose.orientation.w = -0.031234228337
+corner_point.x = 970.818481445
+corner_point.y = 462.999938965
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 972.301330566
+corner_point.y = 584.0
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 851.28314209
+corner_point.y = 583.999938965
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 849.795410156
+corner_point.y = 462.99987793
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 91
+desired_marker.pose.position.x = 0.0466713011265
+desired_marker.pose.position.y = -0.00823654234409
+desired_marker.pose.position.z = 0.68653357029
+desired_marker.pose.orientation.x = 0.00190922961573
+desired_marker.pose.orientation.y = 0.99933812136
+desired_marker.pose.orientation.z = -0.0315223322178
+desired_marker.pose.orientation.w = 0.0180559300777
+corner_point.x = 1113.75048828
+corner_point.y = 462.877075195
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1115.2520752
+corner_point.y = 583.999938965
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 994.262023926
+corner_point.y = 583.99987793
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 993.358276367
+corner_point.y = 463.255462646
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 200
+desired_marker.pose.position.x = -0.0242616627365
+desired_marker.pose.position.y = 0.0585340261459
+desired_marker.pose.position.z = 0.685277879238
+desired_marker.pose.orientation.x = 0.00304452508594
+desired_marker.pose.orientation.y = 0.996441673089
+desired_marker.pose.orientation.z = -0.0745027901079
+desired_marker.pose.orientation.w = 0.0392944940884
+corner_point.x = 970.670166016
+corner_point.y = 597.890930176
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 972.165527344
+corner_point.y = 718.84387207
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 850.000244141
+corner_point.y = 720.313781738
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 849.999694824
+corner_point.y = 598.226074219
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0463749468327
+desired_marker.pose.position.y = 0.126793086529
+desired_marker.pose.position.z = 0.686377346516
+desired_marker.pose.orientation.x = 2.9161045957e-05
+desired_marker.pose.orientation.y = 0.997871715506
+desired_marker.pose.orientation.z = -0.065124510883
+desired_marker.pose.orientation.w = 0.00329190285709
+corner_point.x = 1113.27307129
+corner_point.y = 734.999938965
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1115.34606934
+corner_point.y = 857.723693848
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 993.000183105
+corner_point.y = 858.114318848
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 993.016113281
+corner_point.y = 734.999938965
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.375673022371
+      -J shoulder_lift_joint -1.73474527602
+      -J elbow_joint 1.53569825321
+      -J wrist_1_joint -1.37182132012
+      -J wrist_2_joint -1.57433486554
+      -J wrist_3_joint 1.20093512535
+
+
+
+################# p2 #################################
+
+desired_marker.id = 10
+desired_marker.pose.position.x = 0.046693585813
+desired_marker.pose.position.y = 0.0568988919258
+desired_marker.pose.position.z = 0.403495699167
+desired_marker.pose.orientation.x = 0.00534729107636
+desired_marker.pose.orientation.y = 0.999728226191
+desired_marker.pose.orientation.z = -0.0220885499086
+desired_marker.pose.orientation.w = 0.0051938615423
+corner_point.x = 1221.33569336
+corner_point.y = 631.295349121
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1225.36621094
+corner_point.y = 838.012207031
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1018.74523926
+corner_point.y = 840.823303223
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1016.00683594
+corner_point.y = 633.252868652
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 17
+desired_marker.pose.position.x = -0.0235830619931
+desired_marker.pose.position.y = 0.124452121556
+desired_marker.pose.position.z = 0.403962761164
+desired_marker.pose.orientation.x = 0.00561065303403
+desired_marker.pose.orientation.y = 0.998407435329
+desired_marker.pose.orientation.z = -0.0556382986516
+desired_marker.pose.orientation.w = 0.00744938756578
+corner_point.x = 980.728942871
+corner_point.y = 860.710083008
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 983.053222656
+corner_point.y = 1072.17871094
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 775.99822998
+corner_point.y = 1075.71179199
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 776.01171875
+corner_point.y = 863.389587402
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 26
+desired_marker.pose.position.x = -0.0239146091044
+desired_marker.pose.position.y = -0.00966113992035
+desired_marker.pose.position.z = 0.404481321573
+desired_marker.pose.orientation.x = 0.00418398668982
+desired_marker.pose.orientation.y = 0.999482945335
+desired_marker.pose.orientation.z = -0.029958029215
+desired_marker.pose.orientation.w = 0.0109019597413
+corner_point.x = 979.702331543
+corner_point.y = 404.245819092
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 981.752746582
+corner_point.y = 608.856262207
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 775.000061035
+corner_point.y = 610.963195801
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 774.999938965
+corner_point.y = 405.29675293
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 91
+desired_marker.pose.position.x = 0.0468087084591
+desired_marker.pose.position.y = -0.00983435474336
+desired_marker.pose.position.z = 0.40441980958
+desired_marker.pose.orientation.x = 0.00408920974068
+desired_marker.pose.orientation.y = 0.999481177564
+desired_marker.pose.orientation.z = -0.029169450551
+desired_marker.pose.orientation.w = 0.0130306259626
+corner_point.x = 1220.71887207
+corner_point.y = 403.712463379
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1224.82189941
+corner_point.y = 608.346130371
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1018.94226074
+corner_point.y = 610.16015625
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1016.61547852
+corner_point.y = 404.702453613
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 200
+desired_marker.pose.position.x = -0.0237675141543
+desired_marker.pose.position.y = 0.0571288838983
+desired_marker.pose.position.z = 0.40377920866
+desired_marker.pose.orientation.x = 0.00526252310797
+desired_marker.pose.orientation.y = 0.999808639578
+desired_marker.pose.orientation.z = -0.0184994017305
+desired_marker.pose.orientation.w = 0.00357242384862
+corner_point.x = 980.278015137
+corner_point.y = 631.804260254
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 982.31652832
+corner_point.y = 838.706665039
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 776.088256836
+corner_point.y = 841.29107666
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 774.66998291
+corner_point.y = 633.965576172
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0467164032161
+desired_marker.pose.position.y = 0.123768940568
+desired_marker.pose.position.z = 0.401942640543
+desired_marker.pose.orientation.x = 0.00183582917654
+desired_marker.pose.orientation.y = 0.99748586405
+desired_marker.pose.orientation.z = -0.0692585380106
+desired_marker.pose.orientation.w = 0.0148941486462
+corner_point.x = 1220.75146484
+corner_point.y = 860.069213867
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1227.18505859
+corner_point.y = 1073.6887207
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1019.14935303
+corner_point.y = 1076.23498535
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1016.63708496
+corner_point.y = 862.079467773
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.375554480137
+      -J shoulder_lift_joint -1.71121107169
+      -J elbow_joint 2.01080210161
+      -J wrist_1_joint -1.86974933939
+      -J wrist_2_joint -1.57508847438
+      -J wrist_3_joint 1.20093512535
+
+################# p3 #################################
+
+desired_marker.id = 10
+desired_marker.pose.position.x = 0.0144249917939
+desired_marker.pose.position.y = 0.0285753905773
+desired_marker.pose.position.z = 0.68753439188
+desired_marker.pose.orientation.x = 0.757189944575
+desired_marker.pose.orientation.y = 0.652479401929
+desired_marker.pose.orientation.z = -0.0274687785656
+desired_marker.pose.orientation.w = -0.0133971674924
+corner_point.x = 920.602233887
+corner_point.y = 546.740661621
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1040.03930664
+corner_point.y = 528.817321777
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1058.04553223
+corner_point.y = 648.859130859
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 938.288513184
+corner_point.y = 666.237731934
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 17
+desired_marker.pose.position.x = 0.0932021439075
+desired_marker.pose.position.y = 0.0901682749391
+desired_marker.pose.position.z = 0.696832716465
+desired_marker.pose.orientation.x = 0.756680254762
+desired_marker.pose.orientation.y = 0.653126197392
+desired_marker.pose.orientation.z = -0.0292571005658
+desired_marker.pose.orientation.w = 0.00227692754468
+corner_point.x = 1077.35803223
+corner_point.y = 668.756225586
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1195.65344238
+corner_point.y = 651.516662598
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1213.96203613
+corner_point.y = 770.494140625
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1095.19274902
+corner_point.y = 787.257873535
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 26
+desired_marker.pose.position.x = -0.0414537042379
+desired_marker.pose.position.y = 0.107494674623
+desired_marker.pose.position.z = 0.683333694935
+desired_marker.pose.orientation.x = 0.756837124248
+desired_marker.pose.orientation.y = 0.65316468892
+desired_marker.pose.orientation.z = -0.0209955025827
+desired_marker.pose.orientation.w = -0.0115171775691
+corner_point.x = 807.302062988
+corner_point.y = 706.366699219
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 927.098449707
+corner_point.y = 689.158996582
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 944.920654297
+corner_point.y = 810.118591309
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 824.755981445
+corner_point.y = 826.848937988
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 91
+desired_marker.pose.position.x = -0.051952753216
+desired_marker.pose.position.y = 0.0380780212581
+desired_marker.pose.position.z = 0.687736034393
+desired_marker.pose.orientation.x = 0.75659482956
+desired_marker.pose.orientation.y = 0.653329173043
+desired_marker.pose.orientation.z = -0.026261591949
+desired_marker.pose.orientation.w = -0.00596525961697
+corner_point.x = 787.144287109
+corner_point.y = 565.880187988
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 906.580993652
+corner_point.y = 547.93548584
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 923.335876465
+corner_point.y = 668.142211914
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 804.509643555
+corner_point.y = 685.358398438
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 200
+desired_marker.pose.position.x = 0.0247494447976
+desired_marker.pose.position.y = 0.100015372038
+desired_marker.pose.position.z = 0.69734442234
+desired_marker.pose.orientation.x = 0.757229472406
+desired_marker.pose.orientation.y = 0.650832396375
+desired_marker.pose.orientation.z = -0.0519244570996
+desired_marker.pose.orientation.w = -0.018015790417
+corner_point.x = 941.759033203
+corner_point.y = 687.958068848
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1059.359375
+corner_point.y = 671.082824707
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1077.22070312
+corner_point.y = 790.280944824
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 959.528564453
+corner_point.y = 806.48236084
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0817599669099
+desired_marker.pose.position.y = 0.0189393851906
+desired_marker.pose.position.z = 0.68749833107
+desired_marker.pose.orientation.x = 0.754670012203
+desired_marker.pose.orientation.y = 0.6528438249
+desired_marker.pose.orientation.z = -0.0515534711983
+desired_marker.pose.orientation.w = -0.0401291985832
+corner_point.x = 1056.25708008
+corner_point.y = 527.14642334
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1176.59619141
+corner_point.y = 509.472167969
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1194.42919922
+corner_point.y = 629.923278809
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1073.61291504
+corner_point.y = 646.306762695
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.375673022371
+      -J shoulder_lift_joint -1.73474527602
+      -J elbow_joint 1.53569825321
+      -J wrist_1_joint -1.37182132012
+      -J wrist_2_joint -1.57433486554
+      -J wrist_3_joint 2.91467357254
+
+################# p4 #################################
+
+desired_marker.id = 10
+desired_marker.pose.position.x = 0.0277515556663
+desired_marker.pose.position.y = -0.0262560397387
+desired_marker.pose.position.z = 0.61613881588
+desired_marker.pose.orientation.x = -0.0971764516937
+desired_marker.pose.orientation.y = 0.975094154337
+desired_marker.pose.orientation.z = 0.194858363129
+desired_marker.pose.orientation.w = 0.0421704367081
+corner_point.x = 1104.36474609
+corner_point.y = 430.15411377
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1071.49829102
+corner_point.y = 553.396484375
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 943.126342773
+corner_point.y = 530.524169922
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 970.344665527
+corner_point.y = 404.820556641
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 17
+desired_marker.pose.position.x = -0.0553523302078
+desired_marker.pose.position.y = 0.0182578377426
+desired_marker.pose.position.z = 0.647304713726
+desired_marker.pose.orientation.x = -0.0963598626753
+desired_marker.pose.orientation.y = 0.977972453545
+desired_marker.pose.orientation.z = 0.181040166126
+desired_marker.pose.orientation.w = 0.0388473322224
+corner_point.x = 917.035339355
+corner_point.y = 531.361328125
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 892.491088867
+corner_point.y = 646.892883301
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 767.886047363
+corner_point.y = 625.856750488
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 787.774902344
+corner_point.y = 508.34197998
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 26
+desired_marker.pose.position.x = -0.0271616671234
+desired_marker.pose.position.y = -0.0971878319979
+desired_marker.pose.position.z = 0.583411574364
+desired_marker.pose.orientation.x = -0.0960085585447
+desired_marker.pose.orientation.y = 0.977163152808
+desired_marker.pose.orientation.z = 0.185124156711
+desired_marker.pose.orientation.w = 0.0407869597219
+corner_point.x = 980.088317871
+corner_point.y = 252.664123535
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 950.635742188
+corner_point.y = 390.097320557
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 813.358886719
+corner_point.y = 364.059753418
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 837.030944824
+corner_point.y = 223.985855103
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 91
+desired_marker.pose.position.x = 0.0419132523239
+desired_marker.pose.position.y = -0.0832827016711
+desired_marker.pose.position.z = 0.586865723133
+desired_marker.pose.orientation.x = -0.097014491249
+desired_marker.pose.orientation.y = 0.974576486202
+desired_marker.pose.orientation.z = 0.195439362483
+desired_marker.pose.orientation.w = 0.0509147976786
+corner_point.x = 1145.35656738
+corner_point.y = 288.034332275
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1109.27648926
+corner_point.y = 422.499450684
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 975.065979004
+corner_point.y = 397.077575684
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1005.70849609
+corner_point.y = 259.874786377
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 200
+desired_marker.pose.position.x = -0.0411192849278
+desired_marker.pose.position.y = -0.0399689152837
+desired_marker.pose.position.z = 0.614959597588
+desired_marker.pose.orientation.x = -0.0962472953762
+desired_marker.pose.orientation.y = 0.977613059919
+desired_marker.pose.orientation.z = 0.182858319285
+desired_marker.pose.orientation.w = 0.0396484334622
+corner_point.x = 947.23840332
+corner_point.y = 398.119781494
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 920.344055176
+corner_point.y = 523.867675781
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 789.678588867
+corner_point.y = 500.526824951
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 811.287536621
+corner_point.y = 372.451965332
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0136178927496
+desired_marker.pose.position.y = 0.0314380936325
+desired_marker.pose.position.z = 0.646534144878
+desired_marker.pose.orientation.x = -0.0989591683085
+desired_marker.pose.orientation.y = 0.980786977003
+desired_marker.pose.orientation.z = 0.161191438917
+desired_marker.pose.orientation.w = 0.0477630481471
+corner_point.x = 1066.4786377
+corner_point.y = 559.276550293
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1036.79272461
+corner_point.y = 675.975769043
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 913.489379883
+corner_point.y = 654.65423584
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 939.377075195
+corner_point.y = 536.149108887
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+-J shoulder_pan_joint 0.106929767152
+      -J shoulder_lift_joint -1.73495165748
+      -J elbow_joint 1.74961745501
+      -J wrist_1_joint -1.62413120819
+      -J wrist_2_joint -2.06910233941
+      -J wrist_3_joint 1.45872754655
+
+################# p5 #################################
+
+desired_marker.id = 10
+desired_marker.pose.position.x = -0.0398766770959
+desired_marker.pose.position.y = -0.0722047910094
+desired_marker.pose.position.z = 0.683941185474
+desired_marker.pose.orientation.x = 0.403886526868
+desired_marker.pose.orientation.y = 0.914444899602
+desired_marker.pose.orientation.z = -0.0154487472461
+desired_marker.pose.orientation.w = 0.0206769247003
+corner_point.x = 875.256591797
+corner_point.y = 308.466217041
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 965.100769043
+corner_point.y = 389.94644165
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 882.956848145
+corner_point.y = 479.336578369
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 793.078674316
+corner_point.y = 397.262908936
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 17
+desired_marker.pose.position.x = -0.0385631769896
+desired_marker.pose.position.y = 0.0255159717053
+desired_marker.pose.position.z = 0.686079978943
+desired_marker.pose.orientation.x = 0.402385650077
+desired_marker.pose.orientation.y = 0.91505490134
+desired_marker.pose.orientation.z = -0.0274186484577
+desired_marker.pose.orientation.w = -0.00292127758117
+corner_point.x = 878.668945312
+corner_point.y = 506.109924316
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 967.735229492
+corner_point.y = 587.888549805
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 885.467285156
+corner_point.y = 677.508666992
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 796.706787109
+corner_point.y = 595.248779297
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 26
+desired_marker.pose.position.x = -0.136654183269
+desired_marker.pose.position.y = -0.0656406506896
+desired_marker.pose.position.z = 0.6837028265
+desired_marker.pose.orientation.x = 0.400225748692
+desired_marker.pose.orientation.y = 0.916253108893
+desired_marker.pose.orientation.z = 0.0142050409252
+desired_marker.pose.orientation.w = -0.00988975933903
+corner_point.x = 678.721252441
+corner_point.y = 320.587768555
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 769.103820801
+corner_point.y = 403.566223145
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 686.515563965
+corner_point.y = 492.836853027
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 597.298339844
+corner_point.y = 410.220397949
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 91
+desired_marker.pose.position.x = -0.0888874605298
+desired_marker.pose.position.y = -0.117744870484
+desired_marker.pose.position.z = 0.683870434761
+desired_marker.pose.orientation.x = 0.401130783825
+desired_marker.pose.orientation.y = 0.915185966508
+desired_marker.pose.orientation.z = -0.0352989278652
+desired_marker.pose.orientation.w = 0.0168144778847
+corner_point.x = 776.474060059
+corner_point.y = 216.800506592
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 866.568115234
+corner_point.y = 298.502349854
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 781.89276123
+corner_point.y = 385.516540527
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 694.221984863
+corner_point.y = 305.182983398
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 200
+desired_marker.pose.position.x = -0.0884363874793
+desired_marker.pose.position.y = -0.0207485351712
+desired_marker.pose.position.z = 0.686602771282
+desired_marker.pose.orientation.x = 0.401332558215
+desired_marker.pose.orientation.y = 0.915568076907
+desired_marker.pose.orientation.z = -0.0248981815164
+desired_marker.pose.orientation.w = 0.00688148403552
+corner_point.x = 778.275817871
+corner_point.y = 412.94619751
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 867.382995605
+corner_point.y = 494.762939453
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 784.066650391
+corner_point.y = 583.398193359
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 696.05279541
+corner_point.y = 501.848236084
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+desired_markers_pose.markers.append(desired_marker)
+desired_marker = ArucoMarker()
+desired_marker.id = 582
+desired_marker.pose.position.x = 0.0096282036975
+desired_marker.pose.position.y = -0.02623722516
+desired_marker.pose.position.z = 0.684018909931
+desired_marker.pose.orientation.x = 0.400730015889
+desired_marker.pose.orientation.y = 0.914744581209
+desired_marker.pose.orientation.z = -0.0515534498772
+desired_marker.pose.orientation.w = 0.000217533152505
+corner_point.x = 975.968200684
+corner_point.y = 402.159393311
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 1065.69226074
+corner_point.y = 483.049499512
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 982.908874512
+corner_point.y = 572.630859375
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+corner_point = Point32()
+corner_point.x = 893.926208496
+corner_point.y = 490.440856934
+corner_point.z = 0.0
+desired_marker.img_points.append(corner_point)
+desired_markers_pose.markers.append(desired_marker)
+
+
+-J shoulder_pan_joint -0.600095741602
+      -J shoulder_lift_joint -1.73477155367
+      -J elbow_joint 1.53560447693
+      -J wrist_1_joint -1.37176353136
+      -J wrist_2_joint -1.57433921496
+      -J wrist_3_joint 1.8
+
+
