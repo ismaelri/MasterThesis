@@ -1,0 +1,11 @@
+<launch>
+
+  <arg name="python_file" default='position' />
+  
+  <node name="send_desired_node" pkg="my_files" type="send_desired_image.py" if="$(eval arg('python_file') == 'image')" output="screen">
+  </node>
+  
+  <node name="send_desired_node" pkg="my_files" type="send_desired_position.py" if="$(eval arg('python_file') == 'position')" output="screen">
+  </node>
+
+</launch>

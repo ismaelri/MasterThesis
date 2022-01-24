@@ -1,0 +1,7 @@
+<launch>
+  <arg name="name_file" default=" " />
+
+  <node name="plots_node" pkg="my_files" type="plots.py" args="$(arg name_file)" output="screen">
+  </node>
+
+</launch>

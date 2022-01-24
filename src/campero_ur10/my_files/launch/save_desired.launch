@@ -1,0 +1,14 @@
+<launch>
+  
+  <arg name="python_file" default='position' />
+  
+  <node name="save_desired_node" pkg="my_files" type="save_desired_image.py" if="$(eval arg('python_file') == 'image')" output="screen">
+  </node>
+  
+  <node name="save_desired_node" pkg="my_files" type="save_desired_position.py" if="$(eval arg('python_file') == 'position')" output="screen">
+  </node>
+
+  
+
+
+</launch>
