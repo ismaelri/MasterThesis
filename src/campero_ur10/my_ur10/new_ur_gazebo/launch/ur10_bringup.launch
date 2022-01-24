@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<launch>
+  <!--
+    Main entry point for loading the campero robot with UR10 into Gazebo, in isolation, in the
+    empty world.
+
+    A set of ros_control controllers similar to those loaded by ur_robot_driver
+    will be loaded by 'ur_control.launch.xml' (note: *similar*, *not* identical).
+
+    This bringup .launch file is intentionally given the same name as the one in
+    the ur_robot_driver package, as it fulfills a similar role: loading the
+    configuration and starting the necessary ROS nodes which in the end provide
+    a ROS API to a Universal Robots UR10. Only in this case, instead of a real
+    robot, a virtual model in Gazebo is used.
+
+  -->
+
+  <!--Select the ur_control file-->
+  <arg name="ur_control" default="ur_control.launch.xml" doc="Select the ur_control file"/>
+
+  <!-- Controller configuration -->
+  <arg name="controller_config_file" default="$(find new_ur_gazebo)/config/ur10_controllers.yaml" doc="Config file used for defining the ROS-Control controllers."/>
+  <arg name="controllers" default="joint_state_controller  joint_group_vel_controller" doc="Controllers that are activated by default."/>
+  <arg name="stopped_controllers" default="vel_joint_traj_controller" doc="Controllers that are initally loaded, but not started."/>
+  <!-- vel_joint_traj_controller joint_group_vel_controller scaled_pos_joint_traj_controller-->
+
+  <!-- robot_state_publisher configuration -->
+  <arg name="tf_prefix" default="" doc="tf_prefix used for the robot."/>
+  <arg name="tf_pub_rate" default="125" doc="Rate at which robot_state_publisher should publish transforms."/>
+
+  <!-- Gazebo parameters -->
+  <arg name="paused" default="true" doc="Starts Gazebo in paused mode" />
+  <arg name="gui" default="true" doc="Starts Gazebo gui" />
+
+  <arg name="limited" default="false"  doc="If true, limits joint range [-PI, PI] on all joints." />
+
+
+  <!-- send robot urdf to param server -->
+  <param name="robot_description" command="$(find xacro)/xacro  '$(find campero_ur10_description)/robots/campero_ur10.urdf.xacro'" />
+
+
+  <!-- Robot state publisher -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="$(arg tf_pub_rate)" />
+    <param name="tf_prefix" value="$(arg tf_prefix)" />
+  </node> 
+
+  <!-- Start the 'driver' (ie: Gazebo in this case) -->
+  <include file="$(find new_ur_gazebo)/launch/inc/$(arg ur_control)">
+    <arg name="controller_config_file" value="$(arg controller_config_file)"/>
+    <arg name="controllers" value="$(arg controllers)"/>
+    <arg name="gui" value="$(arg gui)"/>
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="stopped_controllers" value="$(arg stopped_controllers)"/>
+  </include>
+</launch>

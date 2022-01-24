@@ -1,0 +1,13 @@
+material my_material_26
+{
+ technique
+ {
+	pass
+	{
+		texture_unit
+		{
+			texture marker26_5cm.jpg
+		}
+	}
+ }
+}

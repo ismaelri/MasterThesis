@@ -1,0 +1,13 @@
+material my_material_91
+{
+ technique
+ {
+	pass
+	{
+		texture_unit
+		{
+			texture aruco-91.jpg
+		}
+	}
+ }
+}
