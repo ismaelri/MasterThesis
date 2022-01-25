@@ -1,4 +1,4 @@
-#ids of the marks
+#ids of the markers
 uint32[] ids
 # Joint velocities vector
 float64[] v
@@ -10,7 +10,7 @@ float64[] j
 float64[] p
 # Time in the simulation
 float64 t
-# Bool to plot the figures
+# Bool to plot the graphics
 bool finish
 # e_m_plot.msg vector
 e_m_plot[] m_info

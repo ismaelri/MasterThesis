@@ -1,2 +1,2 @@
-# vector of ArUco marks
+# vector of ArUco markers
 ArucoMarker[] markers
