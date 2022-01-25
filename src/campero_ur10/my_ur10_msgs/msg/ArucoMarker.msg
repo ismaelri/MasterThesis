@@ -6,6 +6,3 @@ geometry_msgs/Pose pose
 geometry_msgs/Point32[] img_points
 # marker to represent the ArUco marker in RViz
 visualization_msgs/Marker mark_rviz
-
-
-
